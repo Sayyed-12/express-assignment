@@ -30,7 +30,7 @@ if(duplicate){
 users.push(newUser)
 res.status(201).json({message:'user added',user:newUser})
 })
-
+ //get users
 app.get('/users',(req,res)=>{
     res.json(users)
 })
